@@ -1,0 +1,7 @@
+﻿Interface
+
+- An interface is a contract. This is what a class will do if a class implements interface
+- Instantiating a parent class doesnot make sense in most of the cases. So we use inheritance in order to just give a  contract or map
+- If we inherit from a class and interface then the class shuld be mentioned first . ex: public class BatteryPoweredGmeController : GameController,  IBatteryPowered
+
+Pro Tip: Interfaces are contracts. Use them as types when you need common functionality
